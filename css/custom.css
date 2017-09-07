@@ -1,0 +1,18 @@
+/*MODIFIES DOWNLOAD AND CODEPEN ICONS*/
+/* line 2, custom.scss */
+.fa-main-icon_valign {
+  margin: 12px 0 0; }
+
+/*MODIFIES NAV ICONS*/
+/* line 7, custom.scss */
+.fa-nav-icon_valign {
+  margin: 15px 0 5px; }
+
+/*MODIFIES BOTTOM GO BACK UP ARROW*/
+/* line 12, custom.scss */
+.fa-goup-arrow_center {
+  text-align: center;
+  font-size: 25px;
+  line-height: 38px; }
+
+/*# sourceMappingURL=custom.css.map */
