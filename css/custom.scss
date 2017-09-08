@@ -1,7 +1,11 @@
  /*MODIFIES DOWNLOAD AND CODEPEN ICONS*/
-.fa-main-icon_valign {
-  margin: 12px 0 0;
+
+.hvr-sweep-to-right {
+  .fa-main-icon_valign {
+    margin: 12px 0 0;
+    }
 }
+
 
  /*MODIFIES NAV ICONS*/
 .fa-nav-icon_valign {
@@ -14,3 +18,9 @@
   font-size: 25px;
   line-height: 38px;
 }
+
+/*MODIFIES SOCIAL ICONS*/
+.social_codepen-color:hover {background: #000 !important;}
+.social_github-color:hover {background: #6e5494 !important;}
+.social_linkedin-color:hover {background: #007bb6 !important;}
+.social_instagram-color:hover {background: #CD486B !important;}

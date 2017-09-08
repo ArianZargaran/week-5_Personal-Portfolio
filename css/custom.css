@@ -1,18 +1,35 @@
 /*MODIFIES DOWNLOAD AND CODEPEN ICONS*/
-/* line 2, custom.scss */
-.fa-main-icon_valign {
+/* line 4, custom.scss */
+.hvr-sweep-to-right .fa-main-icon_valign {
   margin: 12px 0 0; }
 
 /*MODIFIES NAV ICONS*/
-/* line 7, custom.scss */
+/* line 11, custom.scss */
 .fa-nav-icon_valign {
   margin: 15px 0 5px; }
 
 /*MODIFIES BOTTOM GO BACK UP ARROW*/
-/* line 12, custom.scss */
+/* line 16, custom.scss */
 .fa-goup-arrow_center {
   text-align: center;
   font-size: 25px;
   line-height: 38px; }
+
+/*MODIFIES SOCIAL ICONS*/
+/* line 23, custom.scss */
+.social_codepen-color:hover {
+  background: #000 !important; }
+
+/* line 24, custom.scss */
+.social_github-color:hover {
+  background: #6e5494 !important; }
+
+/* line 25, custom.scss */
+.social_linkedin-color:hover {
+  background: #007bb6 !important; }
+
+/* line 26, custom.scss */
+.social_instagram-color:hover {
+  background: #CD486B !important; }
 
 /*# sourceMappingURL=custom.css.map */
