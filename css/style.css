@@ -3022,9 +3022,9 @@ footer.dark {
       color: #ffffff; }
     footer.dark .cv-link a:hover {
       background: #e74c3c; }
-  footer.dark a.btn {
+  footer.dark .btn {
     background: #3498db; }
-    footer.dark a.btn:hover, footer.dark a.btn:focus {
+    footer.dark .btn:hover, footer.dark .btn:focus {
       background: #e74c3c; }
   footer.dark input {
     border: transparent;
