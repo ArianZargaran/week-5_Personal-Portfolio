@@ -2037,74 +2037,23 @@ section {
   section h2, section h3 {
     margin: 0; }
 
-#circle-skills .btn {
-  margin-right: 0 !important; }
-#circle-skills .progressbar {
-  margin: 16px; }
-  #circle-skills .progressbar h4 {
-    margin-top: 24px;
-    letter-spacing: 1px; }
-  #circle-skills .progressbar p {
-    line-height: 1.5em; }
-  #circle-skills .progressbar .progressbar-text {
-    font-size: 21px; }
-  #circle-skills .progressbar #circle1, #circle-skills .progressbar #circle2, #circle-skills .progressbar #circle3, #circle-skills .progressbar #circle4 {
-    margin: 0 auto;
-    width: 130px;
-    height: 130px;
-    position: relative; }
-#circle-skills .progressbar.semicircle #circle1, #circle-skills .progressbar.semicircle #circle2, #circle-skills .progressbar.semicircle #circle3, #circle-skills .progressbar.semicircle #circle4 {
-  padding-top: 24px; }
-#circle-skills .progressbar.semicircle .progressbar-text {
-  top: 53% !important;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 48px;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px; }
-#circle-skills .btn-wh-trans {
-  margin: 12px 0 0 0; }
-
-#circle-skills.light .progressbar {
-  color: #171717; }
-  #circle-skills.light .progressbar .progressbar-text {
-    color: #171717 !important; }
-  #circle-skills.light .progressbar p {
-    color: #171717; }
-  #circle-skills.light .progressbar h4 {
-    color: #171717; }
-#circle-skills.light .progressbar.semicircle .progressbar-text {
-  background: #e7e7e7;
-  color: #ffffff; }
-
-#circle-skills.dark .progressbar {
-  color: #ffffff; }
-  #circle-skills.dark .progressbar .progressbar-text {
-    color: #ffffff; }
-  #circle-skills.dark .progressbar p {
-    color: #ffffff; }
-  #circle-skills.dark .progressbar h4 {
-    color: #ffffff; }
-#circle-skills.dark .progressbar.semicircle .progressbar-text {
-  background: #3f3f3f;
-  border: 1px solid #5f5f5f;
-  color: #3f3f3f; }
-#circle-skills.dark .btn-lgr-str {
-  background: none;
-  border: 2px solid #8f8f8f;
-  color: #8f8f8f !important; }
-  #circle-skills.dark .btn-lgr-str:hover {
-    background: none;
-    border: 2px solid #e74c3c;
-    color: #e74c3c !important; }
-
+#bar-skills {
+  padding: 0 2% !important;
+}
 #bar-skills .progress {
-  border-radius: 0; }
+  border-radius: 0;
+  max-width: 97.5%; }
   #bar-skills .progress .progress-bar {
     -webkit-box-shadow: none;
     box-shadow: none; }
+    .skill-01 {width:84%}
+    .skill-02 {width:84%;}
+    .skill-03 {width:84%}
+    .skill-04 {width:84%}
+    .skill-05 {width:84%}
+    .skill-06 {width:84%}
+    .skill-07 {width:84%}
+    .skill-08 {width:84%}
 
 #bar-skills.light h3, #bar-skills.light h5 {
   color: #171717; }
