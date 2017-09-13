@@ -12,12 +12,12 @@
    <!-- META Title & Description -->
    <title>Arian Zargaran - Front-End Developer | Portfolio</title>
 
-   <meta name="description" content="#">
-   <meta name="keywords" content="#">
-   <meta name="author" content="Arian Zargaran">
+   <meta name="description" content="#"> <!-- # Include-->
+   <meta name="keywords" content="#"> <!-- # Include-->
+   <meta name="author" content="Arian Zargaran"> <!-- # -->
 
    <!-- Favorite icon -->
-   <link rel="shortcut icon" href="#.ico"> <!-- # Include-->
+   <link rel="shortcut icon" href="icons/favicon.ico"> <!-- # Include-->
 
    <!-- CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="screen">
@@ -33,7 +33,7 @@
    <link href="css/colors.css" id="color-styles" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
 
    <!-- Custon styles -->
-   <link href="css/custom.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="css/custom.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/> <!-- # Overwritter-->
 </head>
 
 <body id="samuel" class="boxed">
@@ -51,7 +51,7 @@
             <div class="row nopadding name">
                <div class="col-md-10 name-title"><h1 class="font-accident-two-extralight">Arian Zargaran</h1></div>
                <div class="col-md-2 nopadding name-pdf">
-                  <a href="#" class="hvr-sweep-to-right"><i class="fa fa-download fa-main-icon_valign" title="Download Resume.pdf"></i></a> <!-- #How to download my resume-->
+                 <a href="files/Arian-Zargaran_Resume.pdf" target="_blank" download="Arian-Zargaran_Resume.pdf" class="hvr-sweep-to-right"><i class="fa fa-download fa-main-icon_valign" title="Download Resume.pdf"></i></a>
                </div>
             </div>
             <div class="row nopadding position">
@@ -358,9 +358,9 @@
            <h5 class="font-accident-two-bold uppercase">Fast contact</h5> <!-- # Ok-->
            <div class="dividewhite1"></div>
              <form action="https://formspree.io/arianzf@gmail.com" method="POST">
-                 <input type="text" name="name" class="newsletter-email col-xs-12" placeholder="Your message">
+                 <input type="text" name="name" class="newsletter-email col-xs-12" placeholder="Your message" required>
                  <input type="hidden" name="_subject" placeholder="Subject:" value="New submission!" />
-                 <input type="email" name="_replyto" class="col-xs-12" placeholder="Your email">
+                 <input type="email" name="_replyto" class="col-xs-12" placeholder="Your email" required>
                  <input href="#!" class="btn btn-wh-trans btn-md btn-block" name="_submit" type="submit"  value="Send">
              </form>
          </div>
