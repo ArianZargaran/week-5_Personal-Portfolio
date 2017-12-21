@@ -909,7 +909,7 @@ i {
 
 /* Back to top */
 #back-top {
-  background: #bfbfbf url(../images/back_top.png) no-repeat 50% 50%;
+  background: #bfbfbf no-repeat 50% 50%;
   bottom: 40px;
   visibility: hidden;
   height: 40px;
@@ -920,7 +920,7 @@ i {
   opacity: 0;
   cursor: pointer; }
   #back-top:hover {
-    background: #e74c3c url(../images/back_top.png) no-repeat 50% 50%;
+    background: #e74c3c no-repeat 50% 50%;
     border-color: #e74c3c; }
 
 /* Forms */
@@ -2046,14 +2046,14 @@ section {
   #bar-skills .progress .progress-bar {
     -webkit-box-shadow: none;
     box-shadow: none; }
-    .skill-01 {width:84%}
-    .skill-02 {width:84%;}
-    .skill-03 {width:84%}
-    .skill-04 {width:84%}
-    .skill-05 {width:84%}
-    .skill-06 {width:84%}
-    .skill-07 {width:84%}
-    .skill-08 {width:84%}
+    .skill-01 {width:97%}
+    .skill-02 {width:94%;}
+    .skill-03 {width:92%}
+    .skill-04 {width:94%}
+    .skill-05 {width:98%}
+    .skill-06 {width:92%}
+    .skill-07 {width:94%}
+    .skill-08 {width:97%}
 
 #bar-skills.light h3, #bar-skills.light h5 {
   color: #171717; }

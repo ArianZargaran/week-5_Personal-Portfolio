@@ -19,21 +19,21 @@
   transition: all .5s ease-in-out; }
 
 .timeline-samuel-01 {
-  background: url("https://neuethemes.net/preview/html/gridus/html/assets/custom/2.2.0/images/layouts/samuel/timeline/01.jpg");
+  background: url("../images/resume/results_way.jpg");
   background-position: center;
   background-size: cover; }
 
 .timeline-samuel-02 {
-  background: url("https://neuethemes.net/preview/html/gridus/html/assets/custom/2.2.0/images/layouts/samuel/timeline/02.jpg");
+  background: url("../images/resume/newsela.jpeg");
   background-position: center;
   background-size: cover; }
 
 .timeline-samuel-03 {
-  background: url("https://neuethemes.net/preview/html/gridus/html/assets/custom/2.2.0/images/layouts/samuel/timeline/03.jpg");
+  background: url("../images/resume/antena3.jpg");
   background-position: center;
   background-size: cover; }
-
+/* 
 .timeline-samuel-04 {
   background: url("https://neuethemes.net/preview/html/gridus/html/assets/custom/2.2.0/images/layouts/samuel/timeline/04.jpg");
   background-position: center;
-  background-size: cover; }
+  background-size: cover; } */
