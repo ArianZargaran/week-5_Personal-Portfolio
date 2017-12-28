@@ -327,76 +327,94 @@
             }
         })();
 
-        /** Google map **/
-        (function () {
-            if ($('[data-section="map"]').length) {
+         /** Google map **/
 
-                window.initGmap = function () {
-
-                    // Create an array of styles.
-                    var styles = [
-                        {
-                            stylers: [
-                                {saturation: -90}
-                            ]
-                        }, {
-                            featureType: "road",
-                            elementType: "geometry",
-                            stylers: [
-                                {lightness: 100},
-                                {visibility: "simplified"}
-                            ]
-                        }, {
-                            featureType: "road",
-                            elementType: "labels",
-                            stylers: [
-                                {visibility: "off"}
-                            ]
-                        }
-                    ];
-
-                    // Create a new StyledMapType object, passing it the array of styles,
-                    // as well as the name to be displayed on the map type control.
-                    var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
-
-                    // Create a map object, and include the MapTypeId to add
-                    // to the map type control.
-                    var $latlng = new google.maps.LatLng(37.3378741,-121.9340505),
-                        $mapOptions = {
-                            zoom: 13,
-                            center: $latlng,
-                            panControl: false,
-                            zoomControl: true,
-                            scaleControl: false,
-                            mapTypeControl: false,
-                            scrollwheel: false,
-                            mapTypeControlOptions: {
-                                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-                            }
-                        };
-                    var map = new google.maps.Map(document.getElementById('google-map'), $mapOptions);
-
-                    google.maps.event.trigger(map, 'resize');
-
-                    //Associate the styled map with the MapTypeId and set it to display.
-                    map.mapTypes.set('map_style', styledMap);
-                    map.setMapTypeId('map_style');
-
-                    var marker = new google.maps.Marker({
-                        position: $latlng,
-                        map: map,
-                        title: ""
-                    });
-
-                };
-
-                if (document.getElementById('gmapSrc')) {
-                    initGmap();
-                }
-
-                loadScript('https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=initGmap', 'gmapSrc');
+        function initialize(){
+            var mapProp = {
+              center: new google.maps.LatLng(37.3378741,-121.9340505),
+              zoom: 12,
+              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              panControl: false,
+              zoomControl: true,
+              scaleControl: false,
+              mapTypeControl: false,
+              scrollwheel: false,
             }
-        })();
+            var map = new google.maps.Map(document.getElementById('google-map'), mapProp)
+          }
+          google.maps.event.addDomListener(window, 'load', initialize)
+
+
+
+        // (function () {
+        //     if ($('[data-section="map"]').length) {
+
+        //         window.initGmap = function () {
+
+        //             // Create an array of styles.
+        //             var styles = [
+        //                 {
+        //                     stylers: [
+        //                         {saturation: -90}
+        //                     ]
+        //                 }, {
+        //                     featureType: "road",
+        //                     elementType: "geometry",
+        //                     stylers: [
+        //                         {lightness: 100},
+        //                         {visibility: "simplified"}
+        //                     ]
+        //                 }, {
+        //                     featureType: "road",
+        //                     elementType: "labels",
+        //                     stylers: [
+        //                         {visibility: "off"}
+        //                     ]
+        //                 }
+        //             ];
+
+        //             // Create a new StyledMapType object, passing it the array of styles,
+        //             // as well as the name to be displayed on the map type control.
+        //             var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
+
+        //             // Create a map object, and include the MapTypeId to add
+        //             // to the map type control.
+        //             var $latlng = new google.maps.LatLng(37.3378741,-121.9340505),
+        //                 $mapOptions = {
+        //                     zoom: 13,
+        //                     center: $latlng,
+        //                     panControl: false,
+        //                     zoomControl: true,
+        //                     scaleControl: false,
+        //                     mapTypeControl: false,
+        //                     scrollwheel: false,
+        //                     mapTypeControlOptions: {
+        //                         mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+        //                     }
+        //                 };
+        //             var map = new google.maps.Map(document.getElementById('google-map'), $mapOptions);
+
+        //             google.maps.event.trigger(map, 'resize');
+
+        //             //Associate the styled map with the MapTypeId and set it to display.
+        //             map.mapTypes.set('map_style', styledMap);
+        //             map.setMapTypeId('map_style');
+
+        //             var marker = new google.maps.Marker({
+        //                 position: $latlng,
+        //                 map: map,
+        //                 title: ""
+        //             });
+
+        //         };
+
+        //         if (document.getElementById('gmapSrc')) {
+        //             initGmap();
+        //         }
+
+        //         loadScript('https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=initGmap', 'gmapSrc');
+        //     }
+        // })();
 
     }
 
